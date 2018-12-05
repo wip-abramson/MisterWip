@@ -23,6 +23,8 @@ class BlogHamburger extends Component {
     if (typeof window === `undefined`) {
       return <div/>
     }
+    const { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collapse, Container } = require('mdbreact');
+
     return (
 
       <Container style={{width: "100%"}}>
