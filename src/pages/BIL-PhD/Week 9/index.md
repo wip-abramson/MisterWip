@@ -2,7 +2,7 @@
 title: "BIL Lab Week 9"
 path: '/bil-week-9'
 date: "2018-12-03T12:12:03.284Z"
-featuredImage: "./images/cafe.png"  
+featuredImage: "./images/cafe.jpg"  
 
 ---
 

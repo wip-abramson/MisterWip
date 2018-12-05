@@ -39,7 +39,7 @@ class HomeIndex extends React.Component {
                             <li><h3>How can we have anonymity in identity systems while retaining trust and accountability?</h3></li>
                             <li><h3>How might we define cryptographic policies based on top of Verifiable Credentials?</h3></li>
                             <li><h3>How does Self-Sovereign Identity fit into national identity management systems?</h3></li>
-                            <li><h3>How might we begin to adapt our society to the challenges of the climate disaster that is surely coming?</h3></li>
+                            <li><h3>How might we begin to adapt our society to the challenges of the climate disasters that is surely coming?</h3></li>
                             <li><h3>What measures can we take to ensure that freedom, instead of being a rare exception, will become the normal, natural and stable condition for ourselves and our descendants? <i>- <a href="http://www.davidbrin.com/transparentsociety.html" target="_blank">The Transparent Society</a></i></h3></li>
 
                         </ul>
