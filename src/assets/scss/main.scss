@@ -2,6 +2,8 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import '../css/font-awesome.min.css';
+@import '../../../node_modules/bootstrap-css-only/css/bootstrap.min.css';
+@import '../../../node_modules/mdbreact/dist/css/mdb.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
 /*
@@ -87,7 +89,7 @@
 	}
 
 	p {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -985,7 +987,16 @@
 		}
 	}
 
+/* Blog Layout */
+	#blog-layout {
+		margin: 0 auto;
+		width: 600px;
+	}
+
 /* Main */
+	.container {
+		padding: 0px;
+	}
 
 	#main {
 		margin-left: $size-header-width;
@@ -1239,6 +1250,7 @@
 
 	}
 
+
 /* Medium */
 
 	@include breakpoint(medium) {
@@ -1317,7 +1329,7 @@
 
 		/* Main */
 
-			#main {
+			#blog-layout, #main {
 				margin: 0;
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 				width: 100%;
@@ -1393,7 +1405,7 @@
 
 		/* Main */
 
-			#main {
+			#blog-layout, #main {
 				padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
 
 				> section {
