@@ -5,7 +5,7 @@ date: "2018-12-04"
 featuredImage: "./images/W3C.jpg"  
 ---
 
-I am hugely looking forward to attending the W3C Workshop on Strong Authentication and Identity. It is going to be a place for me to validate my current ideas and understanding of the identity space with a group of experts. I hope that it will be a breeding ground for new ideas and possibilities to explore. I am grateful for the university and Blockpass funding my trip to Seattle and am determined to make the most of the trip.
+I am hugely looking forward to attending the [W3C Workshop on Strong Authentication and Identity](https://www.w3.org/Security/strong-authentication-and-identity-workshop/index.html). It is going to be a place for me to validate my current ideas and understanding of the identity space with a group of experts. I hope that it will be a breeding ground for new ideas and possibilities to explore. I am grateful for the university and Blockpass funding my trip to Seattle and am determined to make the most of the trip.
 
 I am interested in pretty much everything in the identity space but as part of applying to the Workshop, you had to complete a position statement suggesting areas you could contribute to and topics you were interested to learn more. 
 
