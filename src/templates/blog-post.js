@@ -14,7 +14,7 @@ export default function Template({
   return (
     <Layout>
     <div className="blog-post-container">
-      <Helmet title={`Mister Wip - ${post.frontmatter.title}`} />
+      <Helmet title={`Will Abramson - ${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
         <div
