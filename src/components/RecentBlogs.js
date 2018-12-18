@@ -4,6 +4,7 @@
 import { StaticQuery, graphql, Link } from "gatsby";
 import React from 'react';
 import Img from "gatsby-image"
+import BlogList from './BlogList';
 
 const RecentBlogs =() => (
 <StaticQuery
@@ -22,7 +23,7 @@ const RecentBlogs =() => (
                         path
                         featuredImage {
                             childImageSharp{
-                                sizes(maxWidth: 700, maxHeight: 500) {
+                                sizes(maxHeight: 500) {
                                     ...GatsbyImageSharpSizes
                                 }
                             }
@@ -37,24 +38,7 @@ const RecentBlogs =() => (
   render={data => {
     const { edges: posts } = data.allMarkdownRemark;
     return (
-      <div className="blog-posts">
-        {posts
-          .filter(post => post.node.frontmatter.title.length > 0)
-          .map(({ node: post }) => {
-            return (
-              <div className="blog-post-preview" key={post.id}>
-                <Link className="blog-link" to={post.frontmatter.path}>
-                  <h1>
-                    {post.frontmatter.title}
-                  </h1>
-                  <Img style={{objectFit: "contain"}} sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
-                  <h2>{post.frontmatter.date}</h2>
-                  <p>{post.excerpt}</p>
-                </Link>
-              </div>
-            );
-          })}
-      </div>
+      <BlogList posts={posts}/>
     )
   }}
   />

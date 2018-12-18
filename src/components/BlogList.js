@@ -8,7 +8,7 @@ import {Link} from "gatsby";
 
 const BlogList = ({posts}) => {
   return (
-    <div id="main">
+    <div>
 
       <BlogHamburger id="header"/>
       {posts

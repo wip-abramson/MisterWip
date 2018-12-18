@@ -19,9 +19,21 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
-
-
+        <div id="main">
+        <section id="one">
+            <header className="major">
+                <h2>MyData</h2>
+            </header>
+            <p>After attending <a href="https://mydata2018.org" target="_blank">MyData 2018</a>, I became inspired by the ideas and <a href="https://mydata.org/mydata-101/" target="_blank">vision</a> for a
+                more human-centric data world. I am now a founding <a href="https://mydata.org/founders/" target="_blank" >member</a> of MyData Global and am working to establish a Scottish MyData hub.
+            </p>
+            <p>I am increasingly concerned with the current data management practices and believe if we want to 
+                live is a fairer, more equal world then we have to move away from the data monopolies we see today.
+                Giving individuals more control over their data flows, will enable everyone to benefit from the innovation we are starting to see driven by data.
+            </p>
+        </section>
       <BlogList posts={posts}/>
+      </div>
     </Layout>
 
   );

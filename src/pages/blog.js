@@ -7,9 +7,11 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
+        <div id="main">
+            <BlogList posts={posts}/>
 
+        </div>
 
-      <BlogList posts={posts}/>
     </Layout>
     
   );
