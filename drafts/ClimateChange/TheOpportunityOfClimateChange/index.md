@@ -2,7 +2,7 @@
 title: "What if we started viewing climate change as an opportunity to make positive changes in our world?"
 path: '/climate-opportunity'
 date: "2018-12-11"
-featuredImage: "./images/HealthAccountability.png"  
+featuredImage: "./images/opportunity.jpg"  
 ---
 
 It is easy to get depressed when thinking about Climate Change and the challenges we are going to face over the next century. There can be no doubt now that the dramatic changes we are going to see are going to cause suffering on an epic scale.
@@ -34,7 +34,7 @@ How can you take advantage?
 
 If you wait until someone tells you what to do. How to fix this. It will be too late.
 
-Don't give up. Climate change presents a grave danger to our entire species. But realise climate change is presenting us with an opportunity to right the mistakes of the past. The transition towards a fairer, cleaner more sustainable world.
+Don't give up. Climate change presents a grave danger to our entire species. But realise climate change is presenting us with an opportunity to right the mistakes of the past. The opportunity to transition towards a fairer, cleaner more sustainable world.
 
 Humans are  an incredible, adaptive and intelligent species. Once we master our environment and learn how to live in harmony with our planet we will be able to look to the stars and truly start shaping our world.
 
