@@ -41,7 +41,7 @@ class HomeIndex extends React.Component {
                             <li><h3>How does Self-Sovereign Identity fit into national identity management systems?</h3></li>
                             <li><h3>What if we started viewing climate change as an opportunity to make positive changes in our world?</h3></li>
                             <li><h3>What measures can we take to ensure that freedom, instead of being a rare exception, will become the normal, natural and stable condition for ourselves and our descendants? <i>- <a href="http://www.davidbrin.com/transparentsociety.html" target="_blank">The Transparent Society</a></i></h3></li>
-
+                            <li><h3>Will the Self-Sovereign Identity model be a viable alternative before the majority of the world's population is involved in one oppressive system or another?</h3></li>
                         </ul>
                     </section>
                     <section id="one">
