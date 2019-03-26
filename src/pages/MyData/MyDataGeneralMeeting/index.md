@@ -5,7 +5,7 @@ date: "2019-03-22"
 featuredImage: "./images/MyDataGM.jpg"  
 ---
 
-![MyData](./image/MyDataGM.jpg)
+![MyData](./images/MyDataGM.jpg)
 
 Last week the MyData community meeting and general meeting were held in Scotland. It was the first community meeting I have attended and the first time the newly elected board of MyData global met face to face. This combined with the timing of the [Scottish Data Festival](https://www.datafest.global/), provided MyData Scotland with the perfect opportunity to hold our first meetup as part of the excellent array of DataFest fringe events going on throughout Scotland.
 
