@@ -1,0 +1,12 @@
+.inline-images {
+    display: flex;
+    flex-direction: row;
+    a {
+        flex: 1;
+    }
+}
+
+.gatsby-resp-image-link {
+    border-bottom: none;
+    color: none !important;
+}

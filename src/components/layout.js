@@ -10,7 +10,10 @@ class Template extends React.Component {
         return (
             <div>
                 <Header />
-                {children}
+                <div id="main">
+                  {children}
+                </div>
+
             </div>
         )
     }

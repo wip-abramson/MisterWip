@@ -19,7 +19,6 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
-        <div id="main">
         <section id="one">
             <header className="major">
                 <h2>MyData</h2>
@@ -33,7 +32,6 @@ export default function Index({ data }) {
             </p>
         </section>
       <BlogList posts={posts}/>
-      </div>
     </Layout>
 
   );

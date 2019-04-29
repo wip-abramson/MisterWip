@@ -20,7 +20,6 @@ class HomeIndex extends React.Component {
                         <meta name="description" content={siteDescription} />
                 </Helmet>
 
-                <div id="main">
 
                     <section id="one">
                         <header className="major">
@@ -33,7 +32,8 @@ class HomeIndex extends React.Component {
                     </section>
                     <section id="one">
                         <header className="major">
-                            <h2>Questions On My Mind</h2>
+                          {/* <Link to='/projects'  className="button">TEST</Link> */}
+                              <h2>Questions On My Mind</h2>
                         </header>
                         <ul>
                             <li><h3>How can we have anonymity in identity systems while retaining trust and accountability?</h3></li>
@@ -64,7 +64,6 @@ class HomeIndex extends React.Component {
                         </ul>
                     </section>
 
-                </div>
 
             </Layout>
         )

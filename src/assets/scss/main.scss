@@ -14,6 +14,9 @@
 
 	@import "libs/skel";
 
+@import "project_tiles";
+@import "blogs";
+
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1800px)',
 		large: '(max-width: 1280px)',
@@ -912,7 +915,7 @@
 		color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
-		padding: ($size-header-pad * 2) $size-header-pad;
+		padding: ($size-header-pad/2) $size-header-pad;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -991,7 +994,7 @@
 	#blog-layout {
 		margin: 0 auto;
 		width: 70%;
-		max-width: 800px;
+		max-width: 1200px;
 	}
 
 /* Main */
@@ -1002,7 +1005,7 @@
 	#main {
 		margin-left: $size-header-width;
 		max-width: 50em + $size-header-pad;
-		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+		padding: ($size-header-pad) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 
 		> section {
