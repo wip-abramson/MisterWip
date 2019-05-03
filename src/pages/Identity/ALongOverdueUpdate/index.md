@@ -8,7 +8,7 @@ featuredImage: "images/themars.jpeg"
 It's been a while since I took a step back and reflected on my progress and development as a researcher and generally a learner in the fast-moving field of identity, cryptography and everything in between.
 
 A lot has happened. A whole university term has run its course. I just turned 24. And I am over half way through my first year of the PhD. 
-`youtube:https://www.youtube.com/embed/XVLs5dw5hOY`
+<!-- `youtube:https://www.youtube.com/embed/XVLs5dw5hOY` -->
 
 ## Developing as a Researcher
 
