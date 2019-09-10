@@ -1,6 +1,6 @@
 ---
 title: "Reflections on the BIL Conference"
-path: '/bil-2-conf-reflections'
+path: '/bil-conf-2-reflections'
 date: "2019-09-10"
 featuredImage: "./images/audience.jpeg"  
 ---
