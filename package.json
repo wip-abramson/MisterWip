@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "3box": "^1.13.2",
+    "3box-comments-react": "0.0.1-beta.20",
     "bootstrap-css-only": "^4.1.1",
     "gatsby": "^2.0.0",
     "gatsby-image": "^2.0.20",
@@ -34,7 +36,8 @@
     "react-responsive-navbar": "^1.0.11",
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
-    "typography-theme-alton": "^0.15.10"
+    "typography-theme-alton": "^0.15.10",
+    "web3": "^1.2.4"
   },
   "keywords": [
     "gatsby"
