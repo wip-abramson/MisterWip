@@ -19,42 +19,42 @@ export default function Template({
   let [userAccount, setUserAccount] = React.useState(null);
 
   React.useEffect(() => {
-    let web3 = new Web3(window.ethereum)
-    window.ethereum.enable().then(response => {
-      console.log(response)
-      setUserAccount(response[0]);
-    }).catch(error => {
-      // User denied account access
-      console.log(error)
-    })
-    let account = web3.eth.accounts[0];
-    console.log(account);
-    const initialise = async function() {
-      console.log(window.ethereum)
-      Box.openBox(adminEthAddr, window.ethereum).then(new_box => {
-        console.log(new_box);
-        new_box.openSpace("Wip Abramson Blog", {}).then(new_space => {
-          console.log(new_space)
-          new_space.syncDone.then(() => {
-            setBox(new_box)
-            setSpace(new_space);
-          })
-        }).catch(error => {
-          console.log(error)
-        })
+    if (window.ethereum) {
+      let web3 = new Web3(window.ethereum)
+      window.ethereum.enable().then(response => {
+        console.log("User Account: ", response[0])
+        setUserAccount(response[0]);
+        initialiseComments(response[0]).then(() => {
+          // Box.getSpace("")
+        });
+      }).catch(error => {
+        // User denied account access
+        console.log(error)
+      })
+    }
 
+  }, [])
+
+  const initialiseComments = async function(userEthAddr) {
+    console.log(window.ethereum)
+    Box.openBox(userEthAddr, window.ethereum).then(new_box => {
+      console.log(new_box);
+      new_box.openSpace("Wip Abramson Blog", {}).then(new_space => {
+        console.log(new_space)
+        new_space.syncDone.then(() => {
+          setBox(new_box)
+          setSpace(new_space);
+        })
       }).catch(error => {
         console.log(error)
       })
-      console.log("Box and space created")
-      console.log(post)
 
+    }).catch(error => {
+      console.log(error)
+    })
+    console.log("Box and space created")
+  }
 
-
-    }
-    initialise();
-
-  }, [])
   return (
     <Layout>
     <div className="blog-post-container">
@@ -71,7 +71,7 @@ export default function Template({
         //   marginBottom: rhythm(1),
         // }}
       />
-      {userAccount && box && space && <ThreeBoxComments
+      {userAccount && box && space ? <ThreeBoxComments
         // required
         spaceName="Wip Abramson Blog"
         threadName={post.frontmatter.path}
@@ -80,7 +80,7 @@ export default function Template({
 
         // Required props for context A) & B)
         box={box}
-        currentUserAddr={userAccount}
+        currentUserAddr={null}
 
 
         // optional
@@ -90,7 +90,7 @@ export default function Template({
         useHovers={true}
         // currentUser3BoxProfile={currentUser3BoxProfile}
         // userProfileURL={address => `https://mywebsite.com/user/${address}`}
-      />}
+      /> : <h3><a href="https://3box.io/">3Box</a> commenting capability available for web3 browsers, install <a href="https://metamask.io/">metamask</a>.</h3>}
       {/*<Bio />*/}
     </div>
     </Layout>

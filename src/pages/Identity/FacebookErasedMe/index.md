@@ -1,6 +1,6 @@
 ---
 title: "Facebook Erased Me"
-path: '/facebook-erased'
+path: '/facebook-erased-me'
 date: "2019-12-04"
 featuredImage: "./images/account_disabled.png"  
 ---
