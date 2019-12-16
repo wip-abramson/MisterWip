@@ -116,3 +116,4 @@ Anyway, I'll close with a few questions I wonder about and some for you to wonde
   * What was the decision process that you took before deciding to disable my account? Importantly, did this just happen by an algorithm?
   * What are the terms that you are claiming I violated? Where is my opportunity to refute these claims?
   * Do you still have my account - permanently disabled suggests not permanently deleted? I imagine so, please give me my information back and erase me from your system!
+
