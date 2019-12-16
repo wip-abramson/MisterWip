@@ -39,9 +39,9 @@ class BlogHamburger extends Component {
                 <NavItem active>
                   <Link to="/">Home</Link>
                 </NavItem>
-                <NavItem>
-                  <Link to="/phddiary">PhD Diary</Link>
-                </NavItem>
+                {/*<NavItem>*/}
+                  {/*<Link to="/phddiary">PhD Diary</Link>*/}
+                {/*</NavItem>*/}
                 <NavItem>
                   <Link to="/identity">Identity</Link>
                 </NavItem>
@@ -52,7 +52,7 @@ class BlogHamburger extends Component {
                   <Link to="/software">Software Development</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="/mydata">MyData</Link>
+                  <Link to="/data">Data</Link>
                 </NavItem>
               </NavbarNav>
             </Collapse>
