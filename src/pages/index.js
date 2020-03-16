@@ -20,9 +20,8 @@ class HomeIndex extends React.Component {
           <header className="major">
             <h2>About Me</h2>
           </header>
-          <p>Experienced software engineer. Identity and privacy-preserving cryptography researcher.
-            I believe digital tools for relationship and information management has a key role to play in ensuring individual freedom is maintained
-            and expanded in the information age.
+          <p>Identity and privacy-preserving cryptography researcher.
+            Building expressive, flexible and extendable cryptographically secured communication tools that support forming human trust in digital relationships.
           </p>
         </section>
         <section id="one">
