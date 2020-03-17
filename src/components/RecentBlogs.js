@@ -12,7 +12,7 @@ const RecentBlogs =() => (
     graphql`
         query recentBlogsQuery {
           allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 3,
-                      filter: {fileAbsolutePath: {regex: "/(Blockchain|MyData|TheCommunityMind|Identity)/.*.md$/"}}) {
+                      filter: {fileAbsolutePath: {regex: "/(Blockchain|MyData|TheCommunityMind|Identity|Healthcare)/.*.md$/"}}) {
             edges {
                 node {
                     excerpt(pruneLength: 250)
