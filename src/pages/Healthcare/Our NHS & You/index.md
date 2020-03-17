@@ -5,6 +5,8 @@ date: "2020-03-17"
 featuredImage: "./images/nhs.jpg"  
 ---
 
+![Save NHS](./images/nhs.jpg)
+
 Each of us can trace some connection to the National Health Service here in the UK. This institution created back in [1948](https://www.historic-uk.com/HistoryUK/HistoryofBritain/Birth-of-the-NHS/) has been a beacon to the world. The NHS showed what healthcare could and should look like in the 20th century. Maybe it's time we reimagine what it should look like in the 21st century. At this current point in time, it is in grave peril. Covid-19 combined with severe underfunding and severe understaffing has left this bastion of British public service on its knees. 
 
 If you have to read [Dr Adam Kay's](https://www.adamkay.co.uk/#adam-kay), no holds barred account of life on the frontline as a junior doctor [This is Going to Hurt](https://www.amazon.co.uk/dp/B06XWDJRGS/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1#ace-g4131440328) you will understand where I am coming from. If you haven't read it, I highly recommend you check it out. This book left a huge impression on me, leading me to produce this stream of consciousness on [twitter](https://twitter.com/wip_abramson/status/1235184044004044800). 
