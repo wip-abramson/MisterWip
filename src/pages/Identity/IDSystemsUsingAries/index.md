@@ -1,7 +1,7 @@
 ---
 title: "Developing Identity Systems Using Hyperledger Aries"
 path: '/aries-dev'
-date: "2020-03-17"
+date: "2020-03-18"
 featuredImage: "./images/aries.png"  
 ---
 
