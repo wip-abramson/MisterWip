@@ -18,21 +18,15 @@ class HomeIndex extends React.Component {
 
         <section id="one">
           <header className="major">
-            <h2>About Me</h2>
-          </header>
-          <p>Identity and privacy-preserving cryptography researcher.
-            Building expressive, flexible and extendable cryptographically secured communication tools that support forming human trust in digital relationships.
-          </p>
-        </section>
-        <section id="one">
-          <header className="major">
             {/* <Link to='/projects'  className="button">TEST</Link> */}
-            <h2>Questions On My Mind</h2>
-          </header>
-          <ul>
-            <li><h3>How might we ensure that the digital systems we create today are resilient to a future we cannot predict?</h3></li>
+
+            <h2>How might we ensure that the digital systems we create today are resilient to a future we cannot predict?</h2>
+            <h2>What metrics can a Verifier use to assess the risks associated with trusting a credential presentation transaction?</h2>
 
             <li><h3>How can we have anonymity in identity systems while retaining trust and accountability?</h3></li>
+          </header>
+          <ul>
+
             <li><h3>How might we define cryptographic policies based on top of Verifiable Credentials?</h3></li>
             <li><h3>How does Self-Sovereign Identity fit into national identity management systems?</h3></li>
             <li><h3>How might we take steps to prevent the technology we create today being misused in the future?</h3>

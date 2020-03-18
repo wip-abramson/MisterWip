@@ -2,7 +2,7 @@
 title: "Developing Identity Systems Using Hyperledger Aries"
 path: '/aries-dev'
 date: "2020-03-17"
-featuredImage: "./images/aries.jpg"  
+featuredImage: "./images/aries.png"  
 ---
 
 **TLDR: if you are going to read one thing the read this about the general [Trust over IP stack](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0289-toip-stack)**

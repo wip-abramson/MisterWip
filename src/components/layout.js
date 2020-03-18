@@ -10,7 +10,7 @@ class Template extends React.Component {
     render() {
         const { children } = this.props
       const siteTitle = 'Will Abramson'
-      const siteDescription = 'Will Abramson\'s personal space in the digital realm. Thoughts on technology, identity, data and more'
+      const siteDescription = 'Will Abramson\'s personal space in the digital realm. Thoughts on identity, privacy, cryptography and communication'
 
         return (
             <div>

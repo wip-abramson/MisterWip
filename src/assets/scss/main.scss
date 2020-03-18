@@ -948,7 +948,7 @@
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 6.25em;
+			width: 15.25em;
 		}
 	}
 
@@ -1183,6 +1183,12 @@
 		#header {
 			background-attachment:	scroll;
 			background-size:		auto, cover;
+
+			.inner {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
 		}
 
 		.poptrox-popup {
@@ -1214,6 +1220,8 @@
 		$size-header-width: 30%;
 		$size-header-pad: 3em;
 
+
+
 		/* Header */
 
 			#header {
@@ -1227,7 +1235,15 @@
 						display: none;
 					}
 				}
+
+				.inner {
+					display: flex;
+					align-items: center;
+					flex-direction: column;
+				}
 			}
+
+
 
 		/* Footer */
 
