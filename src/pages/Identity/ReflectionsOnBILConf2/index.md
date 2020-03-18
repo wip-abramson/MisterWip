@@ -1,9 +1,9 @@
 ---
-   title: "Reflections on the BIL Conference"
-   path: '/bil-conf-2-reflections'
-   date: "2019-09-10"
-   featuredImage: "./images/audience.jpeg"  
-   ---
+title: "Reflections on the BIL Conference"
+path: '/bil-conf-2-reflections'
+date: "2019-09-10"
+featuredImage: "./images/audience.jpeg"  
+---
 
 Our lab's recent [conference](https://www.miracl.com/) was the culmination of its first year in existence. A celebration of what we have learnt and a recognition of the challenges we still have to overcome. It was not perfect, there were some technical issues and timing was less than ideal. However, I am proud of what has been achieved both as a lab and as part of my personal knowledge-seeking journey. A year is not a long time. Above all I am glad I chose to quit my job last summer to take a step into the unknown, it was the right decision. The future looks bright.
 
