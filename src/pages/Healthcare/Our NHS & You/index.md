@@ -5,7 +5,7 @@ date: "2020-03-17"
 featuredImage: "./images/nhs.jpg"  
 ---
 
-![Save NHS](./images/nhs.jpg)
+
 
 Each of us can trace some connection to the National Health Service here in the UK. This institution created back in [1948](https://www.historic-uk.com/HistoryUK/HistoryofBritain/Birth-of-the-NHS/) has been a beacon to the world. The NHS showed what healthcare could and should look like in the 20th century. Maybe it's time we reimagine what it should look like in the 21st century. At this current point in time, it is in grave peril. Covid-19 combined with severe underfunding and severe understaffing has left this bastion of British public service on its knees. 
 
@@ -27,4 +27,7 @@ I, myself, work for a fascinating and timely start-up company called [truu.id](h
 
 **Remember: Not all heroes wear capes, but 99% of healthcare professionals are heroes. I am sure I speak on behalf of everyone when I say we are eternally grateful for your sacrifice.**
 
-
+<div class="idea-page">
+    <img src="./images/doctors_digital_id_notes.jpg" />
+    Click to see my notes in full!
+</div>
