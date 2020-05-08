@@ -72,7 +72,7 @@ The ideas put forward in this article largely remain a hypothesis, I welcome any
 
  I want to finish by saying that while undoubtedly domain-specific experts and governance authorities should have a huge influence in the design of these credential ecosystem, it is our job as developers and system designers to work out the finer details. You wouldn't tell an architect how to design a house, you tell them the features you would like the house to include. I see no reason why this should be different.
  
- <div className="idea-page">
+ <div class="idea-page">
    <img src="./images/notes.jpg"/>
    Click to see my notes in full.
  </div>
