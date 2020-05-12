@@ -2,10 +2,12 @@ module.exports = {
   siteMetadata: {
     title: "Will Abramson",
     author: "Will Abramsin",
-    description: "Personal website"
+    description: "Personal website",
+    siteUrl: "https://wip-abramson.dev"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
