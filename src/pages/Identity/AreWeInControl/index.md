@@ -20,4 +20,4 @@ Here is my show blurb, condensing this down into < 100 words including the title
 
 <hr/>
 
-Would you have come to see me? Well maybe I can come to you in the future, while the fringe might be cancelled I am still keen to develop this performance and engage with the public on this matter. If your interested get in touch!
+Would you have come to see me? Well maybe I can come to you in the future...
