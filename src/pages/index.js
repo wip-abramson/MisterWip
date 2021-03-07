@@ -19,13 +19,18 @@ class HomeIndex extends React.Component {
         <section id="one">
           <header className="major">
             {/* <Link to='/projects'  className="button">TEST</Link> */}
-            <h2>How might we begin to make human trust more machinable, while maintaining flexiblity when enforcing the rules?</h2>
-
-            <h2>What if we make it impossible to break the rules?</h2>
-
-            <h2>How might we ensure that the digital systems we create today are resilient to a future we cannot predict?</h2>
-            <h2>What metrics can a be used to evaluate the desirable properties of identity ecosystems? Who is measuring, what do they want to learn and why?</h2>
+            <h2>How might we use technology to experiment with the ways in which we can attach memory to the artifacts we place meaning in?</h2>
+            <h2>How might artifacts their memory to develop intelligent relationships with the individuals who have interacted with it?</h2>
+            <h2>What if we started to centralise information on artifacts, using our physical interaction with these artifacts to provide an alternative to the search engine for the discovery of information?</h2>
+            {/*<h2>What are the descriptive and normative properties for structuring memory?</h2>*/}
           </header>
+
+          {/*<h2>How might we begin to make human trust more machinable, while maintaining flexiblity when enforcing the rules?</h2>*/}
+
+          {/*<h2>What if we make it impossible to break the rules?</h2>*/}
+
+          {/*<h2>How might we ensure that the digital systems we create today are resilient to a future we cannot predict?</h2>*/}
+          {/*<h2>What metrics can be used to evaluate the desirable properties of identity ecosystems? Who is measuring, what do they want to learn and why?</h2>*/}
           {/*<ul>*/}
 
             {/*<li><h3>How might we define cryptographic policies based on top of Verifiable Credentials?</h3></li>*/}

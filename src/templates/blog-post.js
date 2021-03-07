@@ -4,9 +4,6 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/blog-layout";
-// import Box from '3box';
-// import ThreeBoxComments from '3box-comments-react';
-import Web3 from 'web3';
 
 export default function Template({
                                    data

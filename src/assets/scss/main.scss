@@ -941,10 +941,9 @@
 
 		h1 {
 			color: white;
-			font-size: 1.35em;
+			font-size: 1.8em;
 			line-height: 1.75em;
 			margin: 0;
-			text-align: justify;
 		}
 
 		.image.avatar {
@@ -1006,7 +1005,7 @@
 	#main {
 		margin-left: $size-header-width;
 		max-width: 50em + $size-header-pad;
-		padding: ($size-header-pad) $size-header-pad $size-header-pad $size-header-pad;
+		padding: ($size-header-pad * 0.5) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 
 		> section {
@@ -1226,11 +1225,11 @@
 		/* Header */
 
 			#header {
-				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				padding: ($size-header-pad * 1.5) $size-header-pad $size-header-pad $size-header-pad;
 				width: $size-header-width;
 
 				h1 {
-					font-size: 1.25em;
+					font-size: 1.4em;
 
 					br {
 						display: none;
@@ -1265,7 +1264,7 @@
 			#main {
 				margin-left: $size-header-width;
 				max-width: none;
-				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				padding: ($size-header-pad * 0.5) $size-header-pad $size-header-pad $size-header-pad;
 				width: calc(100% - #{$size-header-width});
 			}
 
@@ -1352,7 +1351,7 @@
 
 			#blog-layout, #main {
 				margin: 0;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
+				padding: ($size-header-pad * 1) $size-header-pad;
 				width: 100%;
 			}
 
@@ -1414,7 +1413,7 @@
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 
 				h1 {
-					font-size: 1.35em;
+					font-size: 1.5em;
 				}
 			}
 
