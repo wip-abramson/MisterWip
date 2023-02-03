@@ -19,7 +19,7 @@ class HomeIndex extends React.Component {
         <section id="one">
           <header className="major">
             {/* <Link to='/projects'  className="button">TEST</Link> */}
-            <h2>How might we use technology to experiment with the ways in which we can attach memory to the artifacts we place meaning in?</h2>
+            <h2>How might we use technology to experiment with the ways in which we can attach memory to the artifacts that hold meaning to us?</h2>
             <h2>How might artifacts use their memory to develop intelligent relationships with the individuals who they have interacted with?</h2>
             <h2>What if we started to centralise information on artifacts, using our physical interaction with these artifacts to provide an alternative to the search engine for the discovery of information?</h2>
             {/*<h2>What are the descriptive and normative properties for structuring memory?</h2>*/}

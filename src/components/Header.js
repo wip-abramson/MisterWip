@@ -10,8 +10,8 @@ class Header extends React.Component {
             <header id="header">
                 <div className="inner">
                     <Link to="/" className="image avatar center"><img src={avatar} alt="" /></Link>
-                  <h1>Identity and privacy-preserving cryptography researcher.</h1>
-                    {/*<h1>Building expressive, flexible and extendable cryptographically secured communication tools that support forming human trust in digital relationships.*/}
+                  <h1><div style={{textDecoration: "underline"}}>Historical Site</div> New professional self-presentation can be found at <a style={{fontWeight: "600px"}} target="_blank" href="https://drwip.com">drwip.com.</a></h1>
+                    {/*<h1>Building expressive, flexible and extendable crypto<br/graphically secured communication tools that support forming human trust in digital relationships.*/}
                   {/*</h1>*/}
                 </div>
                 <Footer />
