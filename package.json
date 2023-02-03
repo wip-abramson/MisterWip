@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "will-abramson-dev",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Will Abramson",
   "dependencies": {
     "bootstrap-css-only": "^4.1.1",
     "electron": "^7.1.3",
